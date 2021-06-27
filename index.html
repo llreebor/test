@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ToFate</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<body class="main__body">
+  
+    <header>
+      <!-- Navbar -->
+      <nav>
+        <div class="container">
+          <div class="navbar">
+            <div class="logo"> <a href="#"> <img src="./img/Logo.svg" alt="logo"></a> </div>
+            <a href="#" class="nav__btn">Войти</a>
+        </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="header">
+          <div class="header__item">
+            <h1 class="header__title">Cамая реалистичная
+              игра в любовь</h1>
+            <p class="header__text">Испытай незабываемые эмоции, проживи невероятные приключения и обрети душевную близость.</p>
+            
+            <div class="video__block video__block-mob modal__btn" >
+              <img src="./img/video.jpg" alt="img" class="video__img">
+              <img src="./img/play.svg" alt="play" class="play__btn">
+            </div>
+
+            <a href="#" class="btn header__btn">
+              Регистрация
+              <span class="btn__box left__top"></span>
+              <span class="btn__box right__top"></span>
+              <span class="btn__box left__bottom"></span>
+              <span class="btn__box right__bottom"></span>
+            </a>
+            <p class="header__subtext">Кредитная карта не требуется</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <!-- <div class="container">
+      <div style="padding:177.78% 0 0 0;position:relative;">
+        <iframe class="video__iframe" src="https://player.vimeo.com/video/567828235?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Lilu"></iframe>
+      </div>
+    </div> -->
+
+
+
+    <main>
+      <section class="section__video">
+        <div class="container">
+          <div class="video__block modal__btn" >
+            <img src="./img/video.jpg" alt="img" class="video__img">
+            <img src="./img/play.svg" alt="play" class="play__btn">
+          </div>
+        </div>
+      </section>
+
+      <section class="section__slider">
+       <div class="container">
+         <h3 class="slider__title">Выбери девушку, с которой хочешь познакомиться</h3>
+         <div class="slider">
+           <img src="./img/prev.svg" alt="prev" class="prev__arrow">
+           <img src="./img/next.svg" alt="prev" class="next__arrow">
+           <!-- Slider main container -->
+            <div class="swiper-container">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide slide__item">
+                  <!-- <iframe class="video__iframe" src="https://player.vimeo.com/video/567828235?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen  title="Lilu"></iframe> -->
+                   <!-- <img src="./img/slide2.jpg"  alt="img"> -->
+                  <video class="video" type="video/mp4" controls poster="./img/avatar.jpg" src="./video/Lilu.mp4"></video>
+
+                 <!-- <img src="./img/play.svg" alt="img" class="play__slide-video" onclick="openVideo('RYnFIRc0k6E')">  -->
+                <!-- <div class="slide__overlay">
+                    <div class="slide__title">Мария Сергеева</div>
+                    <div class="slide__text">Сегодня я медсестра в МК “Красный крест”, переводчик и фотомодель. Но завтра всё это останется в ...</div>
+                  </div> -->
+                </div>
+                <div class="swiper-slide slide__item slide__item-active">
+                  <img src="./img/slide2.jpg" alt="img">
+                  <img src="./img/play.svg" alt="img" class="play__slide-video" onclick="openVideo('RYnFIRc0k6E')">
+                  <div class="slide__overlay">
+                    <div class="slide__title">Мария Сергеева</div>
+                    <div class="slide__text">Сегодня я медсестра в МК “Красный крест”, переводчик и фотомодель. Но завтра всё это останется в ...</div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide slide__item">
+                  <img src="./img/soon.png" alt="img">
+                  <div class="slide__soon">Скоро</div>
+                </div>
+              </div>
+            </div>
+         </div>
+
+         <a href="#" class="btn slider__btn">
+          Познакомиться
+          <span class="btn__box left__top"></span>
+          <span class="btn__box right__top"></span>
+          <span class="btn__box left__bottom"></span>
+          <span class="btn__box right__bottom"></span>
+        </a>
+        <p class="slider__subtext">Кредитная карта не требуется</p>
+       </div>
+      </section>
+
+      
+      <section class="section__pluses">
+        <div class="container">
+          <div class="pluses">
+            <img src="./img/plus__img.png" alt="img" class="plus__img plus__img-pc">
+            <div class="pluses__item">
+              <div class="pluses__title">Строй дружбу или любовь</div>
+              <div class="pluses__text">получай поддержку и понимание. Делись самым сокровенным, не боясь осуждения. Проживай яркие моменты вместе с тем, кто тебя поймет.</div>
+            </div>
+
+            <div class="pluses__item">
+              <div class="pluses__title">Героини живут в параллельном мире <span>который на 90% повторяет наш</span></div>
+              <div class="pluses__text">а 10% это то, что в нашем мире невероятно!</div>
+            </div>
+
+            <div class="pluses__item">
+              <div class="pluses__title">Только в нашей вселенной </div>
+              <div class="pluses__text">ты можешь любить и быть любимым не за то, как ты выглядишь, а за то какой ты внутри.</div>
+            </div>
+
+            <div class="pluses__item">
+              <div class="pluses__title">Выбери героиню, <span>которая тебе по душе</span> </div>
+              <div class="pluses__text"> и наш виртуальный помощник Вилли будет твоим проводником в её незабываемый мир.</div>
+            </div>
+          </div>
+
+
+          <img src="./img/plus__img.png" alt="img" class="plus__img-mob">
+
+          <a href="#" class="btn pluses__btn">
+            Попробовать
+            <span class="btn__box left__top"></span>
+            <span class="btn__box right__top"></span>
+            <span class="btn__box left__bottom"></span>
+            <span class="btn__box right__bottom"></span>
+          </a>
+
+        </div>
+      </section>
+
+      <section class="section__register">
+        <div class="container">
+          <h3 class="section__title">В нашей вселенной ты <br> <span>сам решаешь</span> кем быть.</h3>
+          <h4 class="section__subtitle">Самим собой? А может быть <span>звездой спорта</span>? Или <span>кинозвездой</span>?</h4>
+          <img src="./img/reg__pc.png" alt="img" class="reg__img reg__pc">
+          <img src="./img/reg__mob.png" alt="img" class="reg__img reg__mob">
+          <h4 class="section__subtitle right__subtitle">Ты можешь быть <span>миллионером</span> или <span>ученым</span>. А твоя роль напрямую будет влиять на отношения.</h4>
+
+
+
+          <div class="register__mobile">
+            <div class="register__mobile-title">Героиня живет своей жизнь в параллельной вселенной</div>
+            <div class="register__mobile-text">каждый день, час и минуту. События не повторяются, а создаются тобой. Произойти может все.</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer">
+          <div class="footer__item">
+            <div class="footer__title">Сделай шаг <span>в своё</span> будущее</div>
+          </div>
+          <div class="footer__item">
+            <a href="#" class="btn footer__btn">
+              Бесплатная регистрация
+              <span class="btn__box left__top"></span>
+              <span class="btn__box right__top"></span>
+              <span class="btn__box left__bottom"></span>
+              <span class="btn__box right__bottom"></span>
+            </a>
+            <div class="footer__text">Кредитная карта не требуется</div>
+          </div>
+        </div>
+
+        <div class="footer__logo"><img src="./img/Logo.svg" alt="logo"></div>
+      </div>
+    </footer>
+
+
+  <!-- Modal 1 -->
+  <div class="modal__wrapper">
+    <div class="modal">
+      <div class="modal__close"> <img src="./img/cancel.svg" alt="cancel" width="25px" height="25px"></div>
+      <div class="modal__body">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/kXYiU_JCYtU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div> 
+
+
+    <!-- Modal 2 -->
+    <div class="modal__wrapper modal__wrapper-model">
+      <div class="modal">
+        <div class="modal__close modal__close-model"> <img src="./img/cancel.svg" alt="cancel" width="25px" height="25px"></div>
+        <div class="modal__body modal__body-model">
+
+        </div>
+      </div>
+    </div>
+
+
+  <!-- Библиотеки, скрипты из CDN... -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://player.vimeo.com/api/player.js"></script>
+  <!-- Cкрипты (удалить все, кроме scripts.min.js перед билдом) -->
+  <!-- <script src="./js/modals.js"></script> -->
+  <!-- <script src="./js/main.js"></script> -->
+  <script src="./js/scripts.min.js"></script>
+</body>
+</html>
