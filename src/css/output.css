@@ -1145,6 +1145,7 @@
 @layer components {
   .btn {
     display: inline-flex;
+    cursor: pointer !important;
     align-items: center;
     gap: calc(var(--spacing) * 1.5);
     border-radius: var(--radius-lg);
