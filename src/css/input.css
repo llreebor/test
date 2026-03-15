@@ -54,7 +54,7 @@
 		@apply inline-flex touch-manipulation items-center gap-1.5 rounded-lg border-2 border-transparent transition-colors disabled:cursor-not-allowed disabled:opacity-85;
 	}
 	.btn-primary {
-		@apply hover:bg-higlights-blue active:bg-higlights-blue text-secondary-dark bg-white px-4 py-3 font-semibold hover:text-white active:border-white active:text-white;
+		@apply hover:bg-higlights-blue active:bg-higlights-blue text-secondary-dark cursor-pointer bg-white px-4 py-3 font-semibold hover:text-white active:border-white active:text-white;
 	}
 	.btn-outline {
 		@apply hover:bg-secondary-dark text-secondary-dark border-secondary-dark bg-transparent px-4 py-3 font-semibold hover:text-white active:border-white active:text-white;
@@ -128,9 +128,6 @@
 	}
 	a {
 		@apply transition-colors;
-	}
-	button {
-		@apply cursor-pointer transition-colors disabled:cursor-not-allowed;
 	}
 	p {
 		@apply text-secondary-dark font-workSans;
