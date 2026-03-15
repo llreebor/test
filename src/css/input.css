@@ -54,7 +54,7 @@
 		@apply inline-flex items-center gap-1.5 rounded-lg border-2 border-transparent transition-colors disabled:cursor-not-allowed disabled:opacity-85;
 	}
 	.btn-primary {
-		@apply not-disabled:hover:bg-higlights-blue text-secondary-dark bg-white px-4 py-3 font-semibold not-disabled:hover:text-white active:text-white not-disabled:active:border-white;
+		@apply not-disabled:hover:bg-higlights-blue active:bg-higlights-blue text-secondary-dark bg-white px-4 py-3 font-semibold not-disabled:hover:text-white active:text-white not-disabled:active:border-white;
 	}
 	.btn-outline {
 		@apply not-disabled:hover:bg-secondary-dark text-secondary-dark border-secondary-dark bg-transparent px-4 py-3 font-semibold not-disabled:hover:text-white active:text-white not-disabled:active:border-white;
