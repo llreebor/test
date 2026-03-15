@@ -1685,6 +1685,9 @@
     font-family: var(--font-workSans);
     --tw-font-weight: var(--font-weight-normal);
     font-weight: var(--font-weight-normal);
+    @media (width < 48rem) {
+      cursor: pointer;
+    }
   }
   a {
     transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to;

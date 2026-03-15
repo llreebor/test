@@ -124,7 +124,7 @@
 /* Base Elements  */
 @layer base {
 	body {
-		@apply font-workSans font-normal;
+		@apply font-workSans font-normal max-md:cursor-pointer;
 	}
 	a {
 		@apply transition-colors;
