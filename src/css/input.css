@@ -51,10 +51,10 @@
 @layer components {
 	/* TODO:Button */
 	.btn {
-		@apply inline-flex cursor-pointer! items-center gap-1.5 rounded-lg border-2 border-transparent transition-colors disabled:cursor-not-allowed disabled:opacity-85;
+		@apply inline-flex touch-manipulation items-center gap-1.5 rounded-lg border-2 border-transparent transition-colors disabled:cursor-not-allowed disabled:opacity-85;
 	}
 	.btn-primary {
-		@apply hover:bg-higlights-blue active:bg-higlights-blue text-secondary-dark cursor-pointer! bg-white px-4 py-3 font-semibold hover:text-white active:border-white active:text-white;
+		@apply hover:bg-higlights-blue active:bg-higlights-blue text-secondary-dark bg-white px-4 py-3 font-semibold hover:text-white active:border-white active:text-white;
 	}
 	.btn-outline {
 		@apply hover:bg-secondary-dark text-secondary-dark border-secondary-dark bg-transparent px-4 py-3 font-semibold hover:text-white active:border-white active:text-white;
@@ -148,7 +148,6 @@
 		@apply text-secondary-dark text-2xl leading-[1.2] font-black tracking-[0.5px] wrap-break-word;
 	}
 }
-
 /* Utility Classes */
 @layer utilities {
 	/* Image Background */
@@ -157,5 +156,10 @@
 	}
 	.image-bg {
 		@apply absolute inset-0 -z-10 h-full w-full max-w-full object-cover;
+	}
+
+	/* Active state for Safari */
+	.touch-manipulation {
+		touch-action: manipulation;
 	}
 }

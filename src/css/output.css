@@ -1145,7 +1145,7 @@
 @layer components {
   .btn {
     display: inline-flex;
-    cursor: pointer !important;
+    touch-action: manipulation;
     align-items: center;
     gap: calc(var(--spacing) * 1.5);
     border-radius: var(--radius-lg);
@@ -1163,7 +1163,6 @@
     }
   }
   .btn-primary {
-    cursor: pointer !important;
     background-color: var(--color-white);
     padding-inline: calc(var(--spacing) * 4);
     padding-block: calc(var(--spacing) * 3);
@@ -1763,6 +1762,9 @@
     width: 100%;
     max-width: 100%;
     object-fit: cover;
+  }
+  .touch-manipulation {
+    touch-action: manipulation;
   }
 }
 @property --tw-rotate-x {
